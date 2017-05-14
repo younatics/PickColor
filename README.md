@@ -9,6 +9,9 @@
 ## Intoduction
 📌 Pick color in your image! It will magically return average color in your `UIImage`!. Also, you can get hexstring from `PickColor`
 
+![demo](Images/demo.jpg)
+
+
 ## Requirements
 
 `PickColor` is written in Swift 3. Compatible with iOS 9.0+
