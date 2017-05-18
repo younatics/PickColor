@@ -33,12 +33,12 @@ github "younatics/PickColor"
 ## Usage
 Get `UIColor`
 ```swift
-UIImage.pickColor()
+let UIColor = UIImage.pickColor()
 ```
 
-Get `HexSgtring`
+Get `HexString`
 ```swift
-UIImage.pickColorHexstring()
+let UIColorHexString = UIImage.pickColorHexstring()
 ```
 
 ## References
