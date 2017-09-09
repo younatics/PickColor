@@ -45,7 +45,7 @@ let UIColorHexString = UIImage.pickColorHexstring()
 #### Please tell me or make pull request if you use this library in your application :) 
 
 ## Author
-[younatics 🇰🇷](http://younatics.github.io)
+[younatics 🇰🇷](https://twitter.com/younatics)
 
 ## License
 PickColor is available under the MIT license. See the LICENSE file for more info.
