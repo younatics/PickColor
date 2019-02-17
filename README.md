@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/younatics/PickColor/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/younatics/PickColor.svg?branch=master)](https://travis-ci.org/younatics/PickColor)
 [![Platform](https://img.shields.io/cocoapods/p/PickColor.svg?style=flat)](http://cocoapods.org/pods/PickColor)
-[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 4.2](https://img.shields.io/badge/Swift-4.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
 
 ## Intoduction
 📌 Pick color in your image! It will magically return average color in your `UIImage`!. Also, you can get hexstring from `PickColor`
@@ -14,7 +14,7 @@
 
 ## Requirements
 
-`PickColor` is written in Swift 3. Compatible with iOS 9.0+
+`PickColor` is written in Swift 4.2 Compatible with iOS 9.0+
 
 ## Installation
 

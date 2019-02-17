@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PickColor'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'Pick color in image!'
 
   s.description      = <<-DESC
