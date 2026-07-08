@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIImage {
-    open func pickColor() -> UIColor {
+    public func pickColor() -> UIColor {
         
         var bitmap = [UInt8](repeating: 0, count: 4)
         
@@ -30,7 +30,7 @@ extension UIImage {
         return result
     }
     
-    open func pickColorHexstring() -> String {
+    public func pickColorHexstring() -> String {
         let color = self.pickColor()
         let hexString = String(format: "%02X%02X%02X",
                                Int((color.cgColor.components?[0])! * 255.0),

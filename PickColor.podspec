@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PickColor'
-  s.version          = '0.4.0'
-  s.summary          = 'Pick color in image!'
+  s.version          = '1.0.0'
+  s.summary          = 'Pick color in image! (Swift 6)'
 
   s.description      = <<-DESC
                         Magic will be happened when you use PickColor!
@@ -22,7 +22,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/younatics/PickColor.git', :tag => s.version.to_s }
   s.source_files     = 'PickColor/*.swift'
 
-  s.ios.deployment_target = '9.0'
+  s.swift_version = '6.0'
+  s.ios.deployment_target = '13.0'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'
