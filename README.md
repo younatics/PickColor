@@ -1,12 +1,11 @@
 # PickColor
-[![Version](https://img.shields.io/cocoapods/v/PickColor.svg?style=flat)](http://cocoapods.org/pods/PickColor)
-[![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](https://github.com/younatics/PickColor/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/younatics/PickColor.svg?branch=master)](https://travis-ci.org/younatics/PickColor)
-[![Platform](https://img.shields.io/cocoapods/p/PickColor.svg?style=flat)](http://cocoapods.org/pods/PickColor)
-[![Swift 6.0](https://img.shields.io/badge/Swift-6.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift Package Manager](https://img.shields.io/badge/Swift_Package_Manager-compatible-brightgreen.svg?style=flat)](https://www.swift.org/package-manager/)
+[![CocoaPods](https://img.shields.io/cocoapods/v/PickColor.svg?style=flat)](https://cocoapods.org/pods/PickColor)
+[![Platform](https://img.shields.io/badge/platform-iOS%2013%2B-blue.svg?style=flat)](https://developer.apple.com/ios/)
+[![Swift 6](https://img.shields.io/badge/Swift-6.0-orange.svg?style=flat)](https://www.swift.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
-## Intoduction
+## Introduction
 📌 Pick color in your image! It will magically return average color in your `UIImage`!. Also, you can get hexstring from `PickColor`
 
 ![demo](Images/demo.jpg)
@@ -14,7 +13,7 @@
 
 ## Requirements
 
-`PickColor` is written in Swift 6. Compatible with iOS 13.0+. Supports Swift Package Manager, CocoaPods, and Carthage.
+`PickColor` requires Swift 6 and iOS 13.0 or later. It supports Swift Package Manager and CocoaPods.
 
 ## Installation
 
@@ -34,27 +33,26 @@ dependencies: [
 ]
 ```
 
-### Cocoapods
+### CocoaPods
 
 PickColor is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'PickColor'
+pod 'PickColor', '1.0.0'
 ```
-### Carthage
-```
-github "younatics/PickColor"
-```
+
 ## Usage
 Get `UIColor`
 ```swift
-let UIColor = UIImage.pickColor()
+let image = UIImage(named: "example")!
+let color = image.pickColor()
 ```
 
 Get `HexString`
 ```swift
-let UIColorHexString = UIImage.pickColorHexstring()
+let image = UIImage(named: "example")!
+let hexString = image.pickColorHexstring()
 ```
 
 ## References
@@ -66,5 +64,3 @@ let UIColorHexString = UIImage.pickColorHexstring()
 
 ## License
 PickColor is available under the MIT license. See the LICENSE file for more info.
-
-
